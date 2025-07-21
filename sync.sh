@@ -2,6 +2,7 @@
 
 # === Load config ===
 source .env
+source .last_db_sync_time
 
 # === Initialize LAST_SYNC ===
 if [ ! -f "$LAST_SYNC_FILE" ]; then
