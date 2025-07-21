@@ -3,6 +3,7 @@
 # === Load config ===
 source .env
 source .last_db_sync_time
+source .ssh_config
 
 # === Initialize LAST_SYNC ===
 if [ ! -f "$LAST_SYNC_FILE" ]; then
